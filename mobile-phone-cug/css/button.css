@@ -1,0 +1,47 @@
+.btn-primary{
+    background-color: var(--red);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: transparent;
+    width: 10rem !important;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.btn-primary:hover{
+    background-color: var(--red_hover);
+    border-color: transparent;
+}
+
+.btn-primary:focus, .btn-primary:active{
+    background-color: var(--red_hover);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.btn-secondary{
+    background-color: var(--yellow);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: transparent;
+    width: 10rem !important;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.btn-secondary:hover{
+    background-color: var(--yellow_hover);
+    border-color: transparent;
+}
+
+.btn-secondary:focus, .btn-secondary:active{
+    background-color: var(--yellow_hover);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+
